@@ -1,3 +1,9 @@
+manokwari-theme-greeter (0.2) rote; urgency=low
+
+  * Change password box to transparent.
+
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 30 Apr 2012 21:21:43 +0700
+
 manokwari-theme-greeter (0.1) rote; urgency=low
 
   * Initial release.

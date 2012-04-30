@@ -1,0 +1,13 @@
+Source: manokwari-theme-greeter
+Section: misc
+Priority: optional
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+
+Package: manokwari-theme-greeter
+Architecture: all
+Depends: ${misc:Depends}, lightdm-webkit-greeter
+Provides: lightdm-theme
+Description: Pantheon login screen
+ Manokwari theme for LightDM, developed by BlankOn project.

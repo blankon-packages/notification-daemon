@@ -1,5 +1,5 @@
 body {
-	background: rgba(240, 240, 240, 0.0) url(./img/bg.png);	
+	background: rgba(240, 240, 240, 0.0);	
 	overflow: hidden;
 	font-family: 'Cantarell';
 	padding: 0;
@@ -7,8 +7,21 @@ body {
 	-webkit-user-select: none;
 	-webkit-touch-callout: none;
 }
+#background {
+	width: 100%; 
+	height: 100%; 
+	left: 0px; 
+	top: 0px; 	
+	position: fixed;
+	z-index: -1;
+}
+.stretch {
+    width:100%;
+    height:100%;
+}
+
 #pseudo-body {
-	background-image: -webkit-radial-gradient(50% 42%, ellipse farthest-side, rgba(77, 77, 77, 0.15), rgba(0, 0, 0, 0.0) 80%);
+	background-image: -webkit-radial-gradient(50% 42%, ellipse farthest-side, rgba(240, 240, 240, 0.0), rgba(240, 240, 240, 0.0) 1%);
 	-webkit-background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 47%;
@@ -21,13 +34,13 @@ body {
 	overflow: hidden;
 }
 
-#bg-top {
-	height: 48%;
-	background: gainsboro url(./img/bg.png);
+/*#bg-top {
+	height: 100%;
+	background: url(./img/bg.png);
 	width: 100%;
-	position: relative;
+	position: absolute;
 	z-index: 2;
-}
+}*/
 
 div#panel {
 	position: absolute;
@@ -217,14 +230,14 @@ div.user > div.user-name-container.no-image {
 div.user-selected > div.user-name-container {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	background-color: #101010;
+	/*background-color: #101010;*/
 	width: 180px;
 	border-top: 0px solid #101010;
 	opacity: 1;
 	-webkit-transition-delay: 1s;
 	-webkit-transition-duration: 1s;
 	box-shadow: 0 1px 0 #E3E3E3 inset, 1px -1px 0 rgba(255,255,255,0.2) inset, -1px 0 0 rgba(255,255,255,0.2) inset;
-	background: -webkit-radial-gradient(50% 7%, /*#CCC, #AFAFAF*/rgba(240, 240, 240, 0.0) 1%);
+	background: -webkit-radial-gradient(50% 7%, #CCC, #AFAFAF);
 }
 div.user-selected > div.user-name-container.no-image {
 	border: none;
@@ -255,9 +268,9 @@ Input Text
 	margin: 0 0 9px;
 	display: inline-block;
 	border-radius: 8px;
-	border-color: rgba(240,240,240,0.1);
+	border-color: rgba(240,240,240,0.2);
 	border-style: solid;
-	border-width: 1px;
+	border-width: 3px;
 }
 .input-r.logregpass {
 	float: center;
@@ -291,7 +304,7 @@ div#password-box {
 	position: absolute;
 	width: 258x;
 	height: 24px;
-	top: 60%;
+	top: 61%;
 	left: 60%;
 }
 .alert {
@@ -322,4 +335,14 @@ div#password-box {
 	bottom: 2px;
 	right: 2px;
 	z-index: 2;
+}
+#logo {
+	background: url(./img/BlankOn.png);
+	width: 201px;
+	height: 35px;
+	position: absolute;
+	top: 92%;
+} 
+.archive {
+	left: 3%;
 }

@@ -1,3 +1,10 @@
+manokwari-theme-greeter (0.3) rote; urgency=low
+
+  * Change Background.
+  * Added logo BlankOn
+
+ -- Mahyuddin <yudi.al@gmail.com>  Tue, 01 May 2012 17:54:40 +0700
+
 manokwari-theme-greeter (0.2) rote; urgency=low
 
   * Change password box to transparent.

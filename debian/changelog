@@ -1,3 +1,9 @@
+manokwari-theme-greeter (0.4) rote; urgency=low
+
+  * Rebuild 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 02 May 2012 21:09:59 +0700
+
 manokwari-theme-greeter (0.3) rote; urgency=low
 
   * Change Background.
@@ -13,6 +19,7 @@ manokwari-theme-greeter (0.2) rote; urgency=low
 
 manokwari-theme-greeter (0.1) rote; urgency=low
 
-  * Initial release.
+  * Fork for BlankOn.
+  * Base on (pantheon-lightdm-theme)
 
  -- Mahyuddin <yudi.al@gmail.com>  Mon, 30 Apr 2012 09:39:35 +0700

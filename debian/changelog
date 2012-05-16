@@ -1,3 +1,10 @@
+manokwari-theme-greeter (0.5) rote; urgency=low
+
+  * Fix position
+  * Fix box user
+
+ -- Mahyuddin <yudi.al@gmail.com>  Thu, 17 May 2012 01:15:17 +0700
+
 manokwari-theme-greeter (0.4) rote; urgency=low
 
   * Rebuild 

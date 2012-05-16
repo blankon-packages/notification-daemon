@@ -126,8 +126,8 @@ div#center {
 }
 
 div#users {
-	position: absolute;
-	top: 0px;
+	position: fixed;
+	top: 200px;
 	left: 0px;
 	right: 0px;
 	height: 200px;
@@ -136,8 +136,8 @@ div#users {
 
 div#users > div.user {
 	position: absolute;
-	height: 105px;
-	width: 105px;
+	height: 85px;
+	width: 85px;
 	background-color: #101010;
 	/*background: -webkit-radial-gradient(50% 1%, #fefefe, #b8b8b8);*/
 	background: -webkit-radial-gradient(50% 1%, #c3c3c3, #101010);
@@ -169,8 +169,8 @@ div#users > div.user > div.user-session-value {
 }
 
 div#users div.user img.userimage {
-	width: 105px;
-	height: 105px;
+	width: 85px;
+	height: 85px;
 	border-radius: 5px;
 	-webkit-transition-property: top, left, width, height;
 	-webkit-transition-duration: 1s;

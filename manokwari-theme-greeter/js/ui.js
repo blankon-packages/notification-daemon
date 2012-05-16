@@ -1,14 +1,14 @@
 $(document).ready(buildUI);
 
 var ui_center = 0;
-var user_padding = 50;
+var user_padding = 20;
 var user_selected_width = 200;
 var user_selected_height = 200;
-var user_width = 105;
-var user_height = 105;
+var user_width = 85;
+var user_height = 85;
 var selected_user = 0;
 var user_top_displacement = 95;
-var user_image_size = 105;
+var user_image_size = 85;
 var user_selected_image_size = 200;
 var animation_time = 1000;
 var last_pw = '';

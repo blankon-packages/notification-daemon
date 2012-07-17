@@ -94,7 +94,7 @@ ul.down-arrow .down-arrow-bottom {
 }
 
 ul.down-arrow a{
-	color: #0A0A0A;
+	color: #E5E5E5; /*#0A0A0A;*/
 	display: inline-block;
 	height: 28px;
 	width: 128px;
@@ -105,8 +105,8 @@ ul.down-arrow a{
 
 ul.down-arrow li.session-selected a, ul.down-arrow a:hover{
 	background: rgba(240, 240, 240, 0.0);
-	text-shadow:##7F7F7F 1px 0 0;
-	color: #400022;
+	text-shadow: #7F7F7F 1px 0 0;
+	color: #e5e5e5; /*#400022;*/
 	border-color: rgba(240,240,240,0.1);
 	border-style: solid;
 	border-width: 1px;
@@ -251,7 +251,7 @@ div.user > div.user-name-container > div {
 	font-size: 30px;
 	font-family: "Canterall";
 	font-weight: 300;
-	color: #400022;
+	color: #222; /*#400022;*/
 	text-shadow: #7F7F7F 0px 1px 0px;
 	line-height: 35px;
 	white-space: nowrap !important;
@@ -262,13 +262,13 @@ div.user > div.user-name-container > div {
 Input Text
 */
 .input-r {
-	padding-right: 4px;
+	padding-right: 0px;
 	background: /*url("./img/input.png") top right no-repeat;*/ rgba(240, 240, 240, 0.0);
 	height: 28px;
 	margin: 0 0 9px;
 	display: inline-block;
 	border-radius: 8px;
-	border-color: rgba(240,240,240,0.2);
+	border-color: rgba(0,0,0,0);
 	border-style: solid;
 	border-width: 3px;
 }
@@ -276,7 +276,7 @@ Input Text
 	float: center;
 }
 .input-l {
-	padding-left: 4px;
+	padding-left: 5px;
 	background: /*url("./img/input.png") no-repeat 0 -26px;*/ rgba(240, 240, 240, 0.0);
 	height: 28px;
 }
@@ -286,16 +286,16 @@ Input Text
 	line-height: 24px;
 } 
 .input-c input{
-	background: 0;
-	background: transparent;
-	padding: 0 0 0 5px;
-	margin: 0;
-	border: 0;
-	height: 24px;
+	background-color: black;
+	border-width: 0px;
+	border-radius: 3px;
+	border-color: black;
+	height: 32px;
 	font-size: 15px;
-	color: #400022;
+	color: #e5e5e5; /*#400022;*/
 	text-align: center;
 }
+
 .input-c input:focus{
 	outline: none;
 }
@@ -304,8 +304,8 @@ div#password-box {
 	position: absolute;
 	width: 258x;
 	height: 24px;
-	top: 61%;
-	left: 60%;
+	top: 40%;
+	left: 50%;
 }
 .alert {
 	display: inline-block;
@@ -338,11 +338,11 @@ div#password-box {
 }
 #logo {
 	background: url(./img/BlankOn.png);
-	width: 201px;
-	height: 35px;
+	width: 64px;
+	height: 915px;
 	position: absolute;
-	top: 92%;
+	top: 0%;
 } 
 .archive {
-	left: 3%;
+	left: 0%;
 }

@@ -65,14 +65,14 @@ ul.down-arrow {
 	position: absolute;
 	z-index: 999;
 	background-color: rgba(0,0,0,0.0);
-	width: 120px;
+	width: 155px;
 	display: none;
 	border-radius: 5px;
 	font-size: 14px;
 	font-weight: bold;
 	text-align: left;
 	padding: 2px;
-	right: -20px;
+	right: -10px;
 	top: 20px;
 	float: right;
 	display: none;
@@ -83,14 +83,14 @@ ul.down-arrow li {
 	background-color: rgba(0,0,0,0.0);
 	border-radius: 0px;
 	padding: 2px;
-	width: 100px;
+	width: 128px;
 	height: 28px;
 	line-height: 1;
 }
 
 ul.down-arrow .down-arrow-bottom {
 	background: rgba(0,0,0,0.0);
-	width: 100px;
+	width: 128px;
 	height: 28px;
 }
 
@@ -98,7 +98,7 @@ ul.down-arrow a{
 	color: #E5E5E5; /*#0A0A0A;*/
 	display: inline-block;
 	height: 28px;
-	width: 100px;
+	width: 128px;
 	padding-left: 12px;
 	line-height: 22px;
 	text-decoration: none;

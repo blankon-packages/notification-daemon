@@ -1,3 +1,9 @@
+manokwari-theme-greeter (0.8) rote; urgency=low
+
+  * fix script style.css
+
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 01 Aug 2012 01:07:52 +0700
+
 manokwari-theme-greeter (0.7) rote; urgency=low
 
   * style.css and background from ahmad haris

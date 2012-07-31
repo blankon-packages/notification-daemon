@@ -64,32 +64,33 @@ div#panel div.menu{
 ul.down-arrow {
 	position: absolute;
 	z-index: 999;
-	background: rgba(240, 240, 240, 0.0);
-	width: 155px;
+	background-color: rgba(0,0,0,0.0);
+	width: 120px;
 	display: none;
-	border-radius: 7px;
+	border-radius: 5px;
 	font-size: 14px;
 	font-weight: bold;
 	text-align: left;
-	padding: 36px 0px 0px 0px;
-	right: -10px;
-	top: 3px;
+	padding: 2px;
+	right: -20px;
+	top: 20px;
 	float: right;
 	display: none;
 	list-style: none;
 }
 
 ul.down-arrow li {
-	background: rgba(240, 240, 240, 0.0);
-	padding: 0 14px;
-	width: 128px;
+	background-color: rgba(0,0,0,0.0);
+	border-radius: 0px;
+	padding: 2px;
+	width: 100px;
 	height: 28px;
 	line-height: 1;
 }
 
 ul.down-arrow .down-arrow-bottom {
-	background: rgba(240, 240, 240, 0.0);
-	width: 128px;
+	background: rgba(0,0,0,0.0);
+	width: 100px;
 	height: 28px;
 }
 
@@ -97,20 +98,20 @@ ul.down-arrow a{
 	color: #E5E5E5; /*#0A0A0A;*/
 	display: inline-block;
 	height: 28px;
-	width: 128px;
+	width: 100px;
 	padding-left: 12px;
 	line-height: 22px;
 	text-decoration: none;
 }
 
 ul.down-arrow li.session-selected a, ul.down-arrow a:hover{
-	background: rgba(240, 240, 240, 0.0);
+	background: rgba(0,0,0,0.9);
 	text-shadow: #7F7F7F 1px 0 0;
 	color: #e5e5e5; /*#400022;*/
-	border-color: rgba(240,240,240,0.1);
+	border-color: rgba(240,240,240,0.6);
 	border-style: solid;
 	border-width: 1px;
-	border-radius: 8px;
+	border-radius: 5px;
 	text-decoration: none;
 }
 
@@ -288,7 +289,7 @@ Input Text
 .input-c input{
 	background-color: black;
 	border-width: 0px;
-	border-radius: 3px;
+	border-radius: 4px;
 	border-color: black;
 	height: 32px;
 	font-size: 15px;

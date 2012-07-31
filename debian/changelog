@@ -1,6 +1,12 @@
+manokwari-theme-greeter (0.7) rote; urgency=low
+
+  * style.css and background from ahmad haris
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 31 Jul 2012 15:09:20 +0700
+
 manokwari-theme-greeter (0.6) rote; urgency=low
 
-  * bacground and distro logo 
+  * background and distro logo 
 
  -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Tue, 17 Jul 2012 22:28:16 +0700
 

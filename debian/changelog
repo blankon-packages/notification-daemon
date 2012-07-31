@@ -1,3 +1,9 @@
+manokwari-theme-greeter (0.10) rote; urgency=low
+
+  * fix script style.css in session
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 01 Aug 2012 02:09:30 +0700
+
 manokwari-theme-greeter (0.9) rote; urgency=low
 
   * fix script style.css in session

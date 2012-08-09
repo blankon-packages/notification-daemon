@@ -1,3 +1,9 @@
+manokwari-theme-greeter (0.11) rote; urgency=low
+
+  * fix blankon logo & passwd box resolution 
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 09 Aug 2012 14:48:00 +0700
+
 manokwari-theme-greeter (0.10) rote; urgency=low
 
   * fix script style.css in session

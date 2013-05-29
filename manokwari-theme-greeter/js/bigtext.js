@@ -5,12 +5,12 @@
         oldBigText = window.BigText,
         oldjQueryMethod = $.fn.bigtext,
         BigText = {
-            DEFAULT_MIN_FONT_SIZE_PX: null,
+            /*DEFAULT_MIN_FONT_SIZE_PX: null,
             DEFAULT_MAX_FONT_SIZE_PX: 528,
             GLOBAL_STYLE_ID: 'bigtext-style',
             STYLE_ID: 'bigtext-id',
             LINE_CLASS_PREFIX: 'bigtext-line',
-            EXEMPT_CLASS: 'bigtext-exempt',
+            EXEMPT_CLASS: 'bigtext-exempt',*/
             DEFAULT_CHILD_SELECTOR: '> div',
             childSelectors: {
                 div: '> div',

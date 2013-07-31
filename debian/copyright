@@ -1,43 +1,29 @@
-This package fork for BlankOn by:
-	
-	Mahyuddin <yudi.al@gmail.com> on Sun, 29 Apr 2012 21:29:29 +0700
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: notification-daemon
+Source: http://ftp.gnome.org/pub/GNOME/sources/notification-daemon/
 
-This work was packaged for Debian by:
-
-    Sergey "Shnatsel" Davidoff <shnatsel@gmail.com> on Fri, 22 Jul 2011 03:21:34 +0400
-
-It was downloaded from:
-
-    https://launchpad.net/pantheon-greeter
-
-Upstream Author(s):
-
-    Fabian Thoma <fabian@elementaryos.org>
-
+Files: *
 Copyright:
-
-    Copyright (C) 2011 elementary Project
-
-License:
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This package is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-On Debian systems, the complete text of the GNU General
-Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
-
-The Debian packaging is:
-
-    Copyright (C) 2011 Sergey "Shnatsel" Davidoff <shnatsel@gmail.com>
-
-and is licensed under the GPL version 3, see above.
+ Copyright (C) 2007 Jonh Wendell <wendell@bani.com.br>
+ Copyright (C) 2006 Christian Hammond <chipx86@chipx86.com>
+ Copyright (C) 2005 John (J5) Palmieri <johnp@redhat.com>
+ Copyright (C) 2010 Red Hat, Inc.
+ Copyright (C) 2007 Jim Ramsay <i.am@jimramsay.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,Boston, MA
+ 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.

@@ -1,16 +1,23 @@
-notification-daemon (0.7.6-1blankon2) suroboyo; urgency=low
+notification-daemon (0.7.6-2blankon1) tambora; urgency=medium
 
-  * drop notification-daemon.desktop :
-    - OnlyShowIn=LXDE;OPENBOX;GNOME;
-    - AutostartCondition=GNOME3 unless-session gnome 
+  * Set notify-osd as default
 
- -- mijortsa <mijortsa@toshi>  Thu, 19 Sep 2013 20:17:31 +0700
+ -- Azis Ws <azis.astrojim@surabaya.di.blankon.in>  Mon, 20 Oct 2014 18:56:56 +0700
 
-notification-daemon (0.7.6-1blankon1) suroboyo; urgency=low
+notification-daemon (0.7.6-2) unstable; urgency=medium
 
-  * deactivate notification-daemon.
+  * Team upload.
 
- -- Aris Febrianto <ariesfebrianto@gmail.com>  Wed, 31 Jul 2013 19:23:22 +0000
+  [ Jeremy Bicha ]
+  * Use canonical Vcs-* fields.
+
+  [ intrigeri ]
+  * Fix_GSource_usage_with_recent_GLib.patch: new patch, from upstream
+    Bugzilla (Closes: #747465).
+  * Fix_positioning_notifications_with_long_text.patch: new patch,
+    from upstream Bugzilla (Closes: #693837).
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 17 Oct 2014 13:00:53 +0200
 
 notification-daemon (0.7.6-1) unstable; urgency=low
 

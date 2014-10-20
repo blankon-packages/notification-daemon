@@ -1,1 +1,3 @@
 01_avoid_crash_for_boolean_hints.patch
+Fix_GSource_usage_with_recent_GLib.patch
+Fix_positioning_notifications_with_long_text.patch

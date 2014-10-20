@@ -1,7 +1,7 @@
 Source: notification-daemon
 Section: x11
 Priority: optional
-Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
 Build-Depends: cdbs (>= 0.4.23-1.1),
                debhelper (>= 7),
@@ -11,8 +11,8 @@ Build-Depends: cdbs (>= 0.4.23-1.1),
                libcanberra-gtk3-dev (>= 0.4),
                intltool (>= 0.40.0)
 Standards-Version: 3.9.3
-Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/notification-daemon
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gnome/desktop/unstable/notification-daemon
+Vcs-Svn: svn://svn.debian.org/pkg-gnome/desktop/unstable/notification-daemon
+Vcs-Browser: http://svn.debian.org/viewpkg-gnome/desktop/unstable/notification-daemon
 Homepage: http://www.galago-project.org/specs/notification/index.php
 
 Package: notification-daemon
